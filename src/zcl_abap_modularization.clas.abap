@@ -23,7 +23,7 @@ CLASS zcl_abap_modularization IMPLEMENTATION.
     DATA lv_amount TYPE p LENGTH 9 DECIMALS 2.
 
     lv_amount = me->calculate_freight(
-      iv_distance = 500
+      iv_distance = 1000
       iv_rate     = '25.50'
     ).
 
